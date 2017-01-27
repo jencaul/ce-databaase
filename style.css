@@ -1,0 +1,134 @@
+html{
+  height:100%;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+  color:#4e5758;
+  font-size:14px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-family:'Montserrat', sans-serif;
+  font-size:32px;
+}
+p {
+  margin: 0 0 20px 0; }
+.content{
+  margin:20px;
+}
+.logo{
+  width:450px;
+  float:left;
+}
+header{
+  background: url("assets/mountainBG.png") no-repeat right bottom;
+  padding:30px 20px 16px 20px;
+  border-bottom:2px solid #e6e6e6;
+  min-height:96px;
+  color:#fff;
+}
+header form{
+  margin-bottom:7px;
+  margin-top:10px;
+}
+.headerlogin{
+  float:right;
+}
+.headerlogin input[type=text] {
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  background-color: rgba(255,255,255,0.9);
+  outline:0;
+  border-radius: 20px;
+  color:#333;
+  width:220px;
+  margin-right:5px;
+}
+.headerlogin input[type=button], input[type=submit], input[type=reset] {
+  text-transform:uppercase;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#6ec4e8;
+  border: none;
+  color: white;
+  padding: 10px 48px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size:14px;
+}
+.questionmark{
+  width:20px;
+  height:20px;
+  margin-bottom:-5px;
+}
+header a{
+  color:#fff;
+  text-decoration:none;
+}
+.headercaption{
+  float:right;
+  padding-right:5px;
+}
+.pageWrapper {
+  flex: 1;
+}
+footer{
+  background-color:#5c666f;
+  padding:20px;
+  color:#fff;
+}
+footer a{
+  color:#fff;
+  text-decoration: none;
+}
+.whiteLogo{
+  width:200px;
+  float:left;
+}
+.footerLinks{
+  float:right;
+}
+.footerSocial{
+  width:28px;
+  margin-bottom:-7px;
+}
+.marker{
+  width:46px;
+}
+.sectionHeaders{
+  font-family:'Montserrat', sans-serif;
+  font-size:22px;
+  display:inline-block;
+  background-color:#5c666f;
+  padding:20px;
+  color:#fff;
+  padding:9px 20px 10px 20px;
+  min-width:300px;
+  position:relative;
+  margin-bottom:20px;
+}
+.sectionHeaders .questionmark{
+  right:20px;
+  top:13px;
+  position:absolute;
+}
+.formSection{
+  background-color:#f3f3f1;
+  padding: 20px;
+  margin-bottom:20px;
+}
+.delete{
+  width:20px;
+}
+.edit{
+  width:25px;
+}
